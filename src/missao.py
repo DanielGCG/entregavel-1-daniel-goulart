@@ -4,19 +4,19 @@
 bateria_inicial = int(input('Bateria atual: '))
 
 if (bateria_inicial > 100 or bateria_inicial < 0):
-    print('Valor inválido: ')
+    print('Valor inválido')
     exit()
 
 duracao_missao = int(input('Duração prevista da missão: '))
 
 if (duracao_missao <= 0):
-    print('Valor inválido: ')
+    print('Valor inválido')
     exit()
 
 consumo_minuto = int(input('Consumo por minuto: '))
 
 if (consumo_minuto <= 0):
-    print('Valor inválido: ')
+    print('Valor inválido')
     exit()
 
 
