@@ -64,6 +64,42 @@ O programa deve realizar a validação dos valores de entrada.
 **Entrada:**
 
 ```
+Bateria atual: 100
+Duração prevista da missão: 10
+Consumo por minuto: 10
+```
+
+**Saída:**
+
+```
+Bateria suficiente para a missão, sobrando: 0% de carga.
+```
+
+---
+
+### 6.2
+
+**Entrada:**
+
+```
+Bateria atual: 100
+Duração prevista da missão: 100
+Consumo por minuto: 10
+```
+
+**Saída:**
+
+```
+Bateria insuficiente para a missão, faltaria: 900% de carga.
+```
+
+---
+
+### 6.3
+
+**Entrada:**
+
+```
 Bateria atual: 101
 ```
 
@@ -75,7 +111,7 @@ Valor inválido
 
 ---
 
-### 6.2
+### 6.4
 
 **Entrada:**
 
@@ -91,7 +127,7 @@ Valor inválido
 
 ---
 
-### 6.3
+### 6.5
 
 **Entrada:**
 
@@ -108,7 +144,7 @@ Valor inválido
 
 ---
 
-### 6.4
+### 6.6
 
 **Entrada:**
 
